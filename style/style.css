@@ -13,7 +13,7 @@
 @font-face {
   font-family: "Gotham Pro";
   src: url("../fonts/GothaProLigIta.woff") format("woff");
-  font-style: normal;
+  font-style: italic;
   font-weight: 300;
 }
 
@@ -169,6 +169,7 @@ ul {
 
 .features__item-description {
   font-family: Gotham Pro;
+  font-style: normal;
   font-size: 18px;
   line-height: 30px;
   text-align: center;
