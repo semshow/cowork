@@ -1,0 +1,44 @@
+.pager {
+  display: flex;
+  justify-content: center;
+}
+
+.pager__array-prev {
+  margin-right: 15px;
+}
+
+.pager__array-next {
+  margin-left: 15px;
+}
+
+.pager__list-item {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 12px;
+}
+
+.pager__description {
+  font-family: Roboto, sans-serif;
+  color: #656464;
+  font-size: 14px;
+  line-height: 21px;
+  margin-right: 20px;
+
+}
+
+.pager__array-link {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  color: #221f1f;
+  text-decoration: none;
+}
+
+.pager__link {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  color: #221f1f;
+  font-weight: bold;
+  text-decoration: none;
+}

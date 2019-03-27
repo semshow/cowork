@@ -1,0 +1,34 @@
+.menu {
+  width: 182px;
+  padding-left: 20px;
+}
+
+.menu__nav-item {
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.menu__nav {
+  font-family: Gotham Pro;
+  font-size: 12px;
+  font-weight: bold;
+  color: #ec1e79;
+  list-style-type: none;
+}
+
+.menu__link {
+  color: #ec1e79;
+  text-decoration: none;
+}
+
+.menu__icon {
+  margin-right: 17px;
+}
+
+.active-link {
+  color: #221f1f;
+}
+
+.menu__link:hover {
+  color: #221f1f;
+}

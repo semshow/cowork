@@ -1,0 +1,13 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-family: Gotham Pro;
+  font-size: 49px;
+}
+
+.content {
+  width: 898px;
+}

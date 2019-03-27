@@ -1,0 +1,66 @@
+.features {
+  margin-bottom: 72px;
+}
+
+.features__item {
+  width: 207px;
+  margin-right: 68px;
+}
+
+.features__item:nth-child(3) {
+  margin-right: 127px;
+}
+
+.features__list {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 19px;
+}
+
+.features__icon {
+  /*контейнер */
+  margin: 0 auto;
+  position: relative;
+  width: 68px;
+  height: 68px;
+  background-color: #27273e;
+  border-radius: 50%;
+  margin-bottom: 37px;
+}
+
+.features__img {
+  /*картинка */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.features__item-title {
+  font-family: Gotham Pro;
+  font-weight: bold;
+  font-size: 11px;
+  letter-spacing: 2.6px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.features__item-description {
+  font-family: Gotham Pro;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.features__item-list {
+  font-family: Gotham Pro;
+  font-size: 18px;
+  line-height: 35px;
+  padding-left: 40px;
+}
+
+.features .title {
+  margin-bottom: 44px;
+}

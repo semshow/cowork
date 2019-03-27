@@ -1,0 +1,41 @@
+.header {
+  margin-bottom: 62px;
+  background-color: #27273e;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  height: 77px;
+  background-color: #27273e;
+}
+
+.header__top-logo {
+  width: 99px;
+  height: 51px;
+  margin-left: 19px;
+  margin-top: 13px;
+}
+
+.header__top-contacts {
+  width: 201px;
+  margin-top: 23px;
+  margin-right: 18px;
+}
+
+.header-contacts {
+  font-family: Gotham Pro;
+  font-size: 21px;
+  font-weight: bold;
+  text-align: left;
+  color: #ffffff;
+}
+
+.header-schedule {
+  margin-left: 85px;
+  width: 114px;
+  font-family: OpenSans;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgba(236, 30, 121, 0.7);
+}

@@ -1,0 +1,41 @@
+.news {
+  margin-bottom: 61px;
+}
+
+.news .title {
+  margin-bottom: 67px;
+}
+
+.news__item {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 48px;
+}
+
+.news__item-date {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.news__item-img {
+  margin-right: 20px;
+}
+
+.news__icon {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%
+}
+
+.news__item-title {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.news__item-content {
+  font-size: 18px;
+  line-height: 30px;
+}
