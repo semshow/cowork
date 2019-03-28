@@ -1,7 +1,23 @@
+.comments .title {
+  margin-bottom: 37px;
+}
+
+.comments {
+  margin-bottom: 36px;
+}
+
 .comments__item {
   display: flex;
-  
+  border-bottom: 2px solid #f5f5f5;
+  padding-bottom: 18px;
+  margin-bottom: 31px; 
 }
+.comments__item:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+  margin-bottom: 0; 
+}
+
 .comments__img {
   display: block;
   background-color: #f5f5f5;
@@ -26,12 +42,14 @@
   font-size: 14px;
   color: #221f1f;
   font-weight: 300;
+  margin-bottom: 6px;
 }
 .comments__title {
   font-family: "Gotham Pro";
   font-size: 18px;
   font-weight: 700;
   line-height: 21px;
+  margin-bottom: 10px;
 }
 
 .comments__content {

@@ -59,9 +59,14 @@
 .pager__link--active {
   color: #ffffff;
   background-color: #27273e;
-  border-radius: 5px;
+  border-radius: 4px;
+  color: #ec1e79;
 }
 
 .pager__link:hover {
   color: #ec1e79;
+}
+
+.pager--comments {
+  margin-bottom: 57px;
 }

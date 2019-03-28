@@ -3,6 +3,10 @@
   background-color: #27273e;
 }
 
+.header--comments {
+  margin-bottom: 47px;
+}
+
 .header__top {
   display: flex;
   align-items: center;
