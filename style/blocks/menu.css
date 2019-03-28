@@ -1,10 +1,9 @@
 .menu {
   width: 182px;
-  padding-left: 20px;
 }
 
-.menu__nav-item {
-  margin-bottom: 30px;
+.menu__item {
+  margin-bottom: 35px;
   text-transform: uppercase;
 }
 
@@ -14,21 +13,63 @@
   font-weight: bold;
   color: #ec1e79;
   list-style-type: none;
+  padding-top: 5px;
 }
 
 .menu__link {
+  position: relative;
   color: #ec1e79;
   text-decoration: none;
+  padding-left: 37px;
 }
 
-.menu__icon {
-  margin-right: 17px;
-}
-
-.active-link {
+.menu__link--active {
   color: #221f1f;
 }
 
 .menu__link:hover {
   color: #221f1f;
+}
+
+.menu__link:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: 0;
+}
+
+.menu__link--main:before {
+  width: 17px;
+  height: 15px;
+  background: url(../../img/css_sprites.png) -90px -45px;
+}
+
+.menu__link--comments:before {
+  width: 20px;
+  height: 18px;
+  background: url(../../img/css_sprites.png) -50px -10px;
+}
+
+.menu__link--prices:before {
+  width: 19px;
+  height: 16px;
+  background: url(../../img/css_sprites.png) -49px -48px;
+}
+
+.menu__link--main:hover:before,
+.menu__link--active.menu__link--main:before {
+  background: url(../../img/css_sprites.png) -90px -10px;
+}
+
+.menu__link--comments:hover:before,
+.menu__link--active.menu__link--comments:before {
+  background: url(../../img/css_sprites.png) -10px -10px;
+}
+
+.menu__link--prices:hover:before,
+.menu__link--active.menu__link--comments:before {
+  width: 19px;
+  height: 16px;
+  background: url(../../img/css_sprites.png) -10px -48px;
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8">
@@ -16,9 +16,9 @@
     <div class="wrapper__content">
       <header class="header">
         <div class="header__top container ">
-          <div class="header__top-logo">
-            <a href="#">
-              <img src="img/logo-fig.png" alt="logo">
+          <div class="header__top-logo logo">
+            <a href="index.html" class="logo__link">
+              <img src="img/logo-fig.png" alt="Коворкинг твоей мечты" class="logo__img">
             </a>
           </div>
           <div class="header__top-contacts">
@@ -26,40 +26,37 @@
               8 (800) 00-392-10
             </div>
             <div class="header-schedule">
-              <a href="#">График работы</a>
+              <a href="#" class="header__link">График работы</a>
             </div>
           </div>
         </div>
-        <div class="header__banner container">
-          <img src="img/banner.jpg" alt="CoWork banner">
+        <div class="header__banner">
+          <img src="img/banner.jpg" alt="Коворскинг твоей мечты" class="header__banner-img" role="presentation">
         </div>
       </header>
 
       <div class="main container">
-        <div class="menu">
+        <nav class="menu">
           <ul class="menu__nav">
-            <li class="menu__nav-item">
-              <a class="menu__link active-link" href="#">
-                <img src="img/main-icon.png" alt="" class="menu__icon">
+            <li class="menu__item">
+              <a class="menu__link menu__link--main menu__link--active" href="#">
                 Главная
               </a>
             </li>
-            <li class="menu__nav-item">
-              <a class="menu__link" href="#">
-                <img src="img/feed-icon.png" alt="" class="menu__icon">
+            <li class="menu__item">
+              <a class="menu__link menu__link--comments" href="comments.html">
                 Отзывы
               </a>
             </li>
-            <li class="menu__nav-item">
-              <a class="menu__link" href="">
-                <img src="img/wallet-icon.png" alt="" class="menu__icon">
+            <li class="menu__item">
+              <a class="menu__link menu__link--prices" href="">
                 Тарифы
               </a>
             </li>
           </ul>
-        </div>
+        </nav>
         <div class="content">
-          <div class="features">
+          <section class="features">
             <h1 class="title">Особенности</h1>
             <div class="features__list">
               <div class="features__item">
@@ -105,11 +102,11 @@
                 </ul>
               </div>
             </div>
-          </div>
-          <div class="news">
-            <h1 class="title">
+          </section>
+          <section class="news">
+            <h2 class="title">
               Последние новости
-            </h1>
+            </h2>
             <div class="news__item">
               <div class="news__item-img">
                 <img src="img/layer-6.jpg" alt="" class="news__icon">
@@ -166,8 +163,8 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="pager">
+          </section>
+          <section class="pager">
             <div class="pager__description">
               Страница 1 из 7
             </div>
@@ -177,8 +174,8 @@
               </a>
             </div>
             <ul class="pager__list">
-              <li class="pager__list-item">
-                <a href="#" class="pager__link">1</a>
+              <li class="pager__list-item ">
+                <a href="#" class="pager__link pager__link--active">1</a>
               </li>
               <li class="pager__list-item">
                 <a href="#" class="pager__link">2</a>
@@ -202,48 +199,58 @@
             <div class="pager__array-next">
               <a href="#" class="pager__array-link">&gt;</a>
             </div>
-          </div>
+          </section>
         </div>
       </div>
 
-      <div class="footer">
+      <footer class="footer">
         <div class="footer__content container">
-          <div class="footer__creator">
+          <div class="footer__item footer__creator">
             <p class="footer-text">
               Сделано с любовью и старанием
               на курсе «HTML + CSS» в <strong class="footer_strong">LoftSchool</strong>.
               Автор работы: <strong class="footer__strong">Прохладов Вадим</strong>
             </p>
           </div>
-          <div class="footer__logo">
+          <div class="footer__item footer__logo">
             <a href="index.html">
-              <img src="img/logo-fig.png" alt="footer logo">
+              <img src="img/logo-fig.png" alt="Коворкинг твоей мечты">
             </a>
           </div>
-          <div class="footer__social">
+          <div class="footer__social footer__item">
             <div class="footer__social-text">
               Наши социальные сети
             </div>
             <ul class="footer__social-list">
               <li class="footer__social-item">
-                <img src="img/vk.png" alt="social" class="footer__social-icon">
+                <a href="#" class="footer__social-link">
+                  <img src="img/vk.png" alt="social" class="footer__social-icon">
+                </a>
               </li>
               <li class="footer__social-item">
-                <img src="img/fb.png" alt="social" class="footer__social-icon">
+                <a href="#" class="footer__social-link">
+                  <img src="img/fb.png" alt="social" class="footer__social-icon">
+                </a>
               </li>
               <li class="footer__social-item">
-                <img src="img/google.png" alt="social" class="footer__social-icon">
+                <a href="#" class="footer__social-link">
+                  <img src="img/google.png" alt="social" class="footer__social-icon">
+                </a>
               </li>
               <li class="footer__social-item">
-                <img src="img/twitter.png" alt="social" class="footer__social-icon">
+                <a href="#" class="footer__social-link">
+                  <img src="img/twitter.png" alt="social" class="footer__social-icon">
+                </a>
               </li>
               <li class="footer__social-item">
-                <img src="img/mail.png" alt="social" class="footer__social-icon">
+                <a href="#" class="footer__social-link">
+                  <img src="img/mail.png" alt="social" class="footer__social-icon">
+                </a>
               </li>
             </ul>
           </div>
         </div>
-      </div>
+      </footer>
     </div>
   </div>
 </body>

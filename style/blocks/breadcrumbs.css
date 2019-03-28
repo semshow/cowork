@@ -1,0 +1,21 @@
+.breadcrumbs__list {
+list-style-type: none;
+}
+.breadcrumbs__item {
+  display: inline-block;
+}
+.breadcrumbs__link {
+opacity: 0.8;
+color: #ec1e79;
+font-family: "Gotham Pro";
+font-size: 14px;
+font-weight: 300;
+font-style: italic;
+line-height: 18px;
+text-decoration: underline;
+}
+
+.breadcrumbs__link--active {
+text-decoration: none;
+color: #221f1f;
+}

@@ -4,17 +4,15 @@
 
 .features__item {
   width: 207px;
-  margin-right: 68px;
-}
-
-.features__item:nth-child(3) {
-  margin-right: 127px;
+  margin-left: 65px;
 }
 
 .features__list {
   display: flex;
-  justify-content: space-between;
-  margin-left: 19px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 0 20px;
+  margin-left: -65px;
 }
 
 .features__icon {
@@ -58,9 +56,15 @@
   font-family: Gotham Pro;
   font-size: 18px;
   line-height: 35px;
-  padding-left: 40px;
+  list-style: none;
 }
 
 .features .title {
   margin-bottom: 44px;
+}
+
+.list-element:before {
+content: '•';
+color: #cc3366;
+margin-right: 32px;
 }
