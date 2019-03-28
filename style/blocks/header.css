@@ -26,7 +26,7 @@
 }
 
 .header-contacts {
-  font-family: Gotham Pro;
+  font-family: 'Gotham Pro';
   font-size: 21px;
   font-weight: bold;
   text-align: left;
@@ -37,7 +37,7 @@
   margin-left: 85px;
 }
 .header__link {
-  font-family: OpenSans;
+  font-family: 'OpenSans', sans-serif;
   font-size: 14px;
   font-weight: bold;
   color: rgba(236, 30, 121, 0.7);
