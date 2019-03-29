@@ -16,34 +16,55 @@
   font-size: 49px;
   font-weight: 700;
   line-height: 38px;
+  margin-bottom: 26px;
 }
 
 .input {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
+  margin-bottom: 15px;
 }
 
-input[type="text"] {
+.input__text {
+  box-sizing: border-box;
   width: 269px;
+  height: 45px;
+  border: 0;
+  padding-left: 10px;
+  border-radius: 3px;
+}
+
+.input__name {
+  margin-right: 23px;
+}
+
+.input__description {
+  margin-top: 0;
+  margin-bottom: 8px
 }
 
 .form__textarea {
+  margin-bottom: 11px;
+}
+
+.form__text {
   box-sizing: border-box;
   width: 561px;
+  height: 90px;
+  padding: 9px;
+  border: 1px solid #ec1e79;
+  border-radius: 3px;
 }
 
 .button {
   width: 139px;
   height: 45px;
+  text-align: center;
   background-color: #27273e;
   box-sizing: border-box;
   border-radius: 5px;
-}
-
-.button__text {
-  width: 96px;
-  color: #ffffff;
   font-family: "Gotham Pro";
+  color: #ffffff;
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
@@ -52,6 +73,79 @@ input[type="text"] {
   margin: 0 auto;
 }
 
+.button:hover {
+  background-color: #ec1e79;
+}
+
 .form__link {
+  display: inline-block;
+  vertical-align: top;
   text-decoration: none;
 }
+
+.radio {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 222px;
+  margin-bottom: 49px;
+
+}
+
+.radio__description {
+  margin-top: 0;
+  margin-bottom: 11px;
+}
+
+.radio__container {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+  margin-right: 7px;
+}
+
+.radio__standart {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  border-radius: 50%;
+  border: 1px solid #c9c9c9;
+}
+
+.radio__container input:checked~.checkmark {
+  border-color: #ec1e79;
+  
+}
+.radio__container input:checked~.answer {
+  color: #ec1e79;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.radio__container input:checked~.checkmark:after {
+  display: block;
+}
+
+.container .checkmark:after {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 8px;
+  height: 8px;
+  background-color: #ec1e79;
+  border-radius: 50%;
+}
+

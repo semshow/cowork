@@ -29,23 +29,26 @@
   width: 201px;
 }
 
-.header-contacts {
+.header__phone {
   font-family: 'Gotham Pro';
   font-size: 21px;
   font-weight: bold;
   text-align: left;
   color: #ffffff;
+  text-decoration: none;
 }
 
 .header-schedule {
   margin-left: 85px;
 }
+
 .header__link {
   font-family: 'OpenSans', sans-serif;
   font-size: 14px;
   font-weight: bold;
   color: rgba(236, 30, 121, 0.7);
 }
+
 .header__banner {
   margin: 0 auto;
   max-width: 1100px;

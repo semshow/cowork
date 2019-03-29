@@ -20,9 +20,11 @@
               <img src="img/logo-fig.png" alt="Коворкинг твоей мечты" class="logo__img">
             </a>
           </div>
-          <div class="header__top-contacts">
-            <div class="header-contacts">
-              8 (800) 00-392-10
+          <div class="header__contacts">
+            <div class="header__contacts-link">
+              <a href="tel:8 (800) 00-392-10" class="header__phone">
+                8 (800) 00-392-10
+              </a>
             </div>
             <div class="header-schedule">
               <a href="#" class="header__link">График работы</a>
@@ -35,12 +37,12 @@
         <nav class="menu">
           <ul class="menu__nav">
             <li class="menu__item">
-              <a class="menu__link menu__link--main menu__link--active" href="#">
+              <a class="menu__link menu__link--main" href="index.html">
                 Главная
               </a>
             </li>
             <li class="menu__item">
-              <a class="menu__link menu__link--comments" href="comments.html">
+              <a class="menu__link menu__link--comments menu__link--active" href="comments.html">
                 Отзывы
               </a>
             </li>
@@ -203,35 +205,42 @@
         <form action="#" method="#" enctype="#" autocomplete="on">
           <div class="input">
             <div class="input__name">
-              <p>Ваше имя</p>
-              <input type="text" placeholder="Андрей">
+              <p class="input__description">Ваше имя</p>
+              <input type="text" placeholder="Андрей" class="input__text">
             </div>
             <div class="input_profile">
-              <p>Ссылка на профиль</p>
-              <input type="text" placeholder="vk.com/example">
+              <p class="input__description">Ссылка на профиль VK</p>
+              <input type="text" placeholder="vk.com/example" class="input__text">
             </div>
           </div>
-          <p>Текст отзыва</p>
+          <p class="input__description">Текст отзыва</p>
           <div class="form__textarea">
-            <textarea name="" id="" cols="65" rows="10">Мне понравилось</textarea>
+            <textarea name="comments__area" id="" cols="66" rows="4" class="form__text">Мне понравилось</textarea>
           </div>
-          <p>
-            Отображать фото в отзыве?
-          </p>
-          <input type="radio"> Да
-          <input type="radio"> Нет
+          <div class="radio">
+            <p class="radio__description">
+              Отображать фото в отзыве?
+            </p>
+            <label class="radio__container">
+              <input type="radio" name="radio" class="radio__standart" checked="checked">
+              <span class="checkmark"></span><span class="answer">Да</span>
+            </label>
+            <label class="radio__container">
+              <input type="radio" name="radio" class="radio__standart">
+              <span class="checkmark"></span> <span class="answer">Нет</span>
+            </label>
+            <label class="radio__container">
+          </div>
           <a href="" class="form__link">
             <div class="button">
-              <div class="button__text">
-                Отправить
-              </div>
+              Отправить
             </div>
           </a>
         </form>
       </div>
 
     </div> <!-- end of sticky footer -->
-    <footer class="footer">
+    <footer class="footer comments__footer">
       <div class="footer__content container">
         <div class="footer__item footer__creator">
           <p class="footer-text">
