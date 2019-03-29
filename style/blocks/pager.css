@@ -11,11 +11,13 @@
 
 .pager__array-prev {
   display: inline-block;
+  vertical-align: middle;
   margin-right: 15px;
 }
 
 .pager__array-next {
   display: inline-block;
+  vertical-align: middle;
   margin-left: 15px;
 }
 

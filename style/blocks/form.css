@@ -124,11 +124,13 @@
 
 .radio__container input:checked~.checkmark {
   border-color: #ec1e79;
-  
+
 }
+
 .radio__container input:checked~.answer {
   color: #ec1e79;
 }
+
 .checkmark:after {
   content: "";
   position: absolute;
@@ -148,4 +150,3 @@
   background-color: #ec1e79;
   border-radius: 50%;
 }
-

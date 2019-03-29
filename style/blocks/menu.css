@@ -68,7 +68,7 @@
 }
 
 .menu__link--prices:hover:before,
-.menu__link--active.menu__link--comments:before {
+.menu__link--active.menu__link--prices:before {
   width: 19px;
   height: 16px;
   background: url(../../img/css_sprites.png) -10px -48px;
