@@ -1,6 +1,7 @@
 .pager {
-  width: 360px;
+  width: 456px;
   margin: 0 auto;
+  margin-bottom: 57px;
 }
 
 .pager__list {
