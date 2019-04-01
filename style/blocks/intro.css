@@ -10,6 +10,7 @@
 }
 
 .intro__logo {
+  animated infinite bounce delay-2s
   width: 161px;
   height: 119px;
   position: absolute;

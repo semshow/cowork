@@ -40,6 +40,41 @@
 
 .header-schedule {
   margin-left: 85px;
+  position: relative;
+}
+
+.header__dropdown {
+  box-sizing: border-box;
+  padding: 17px 10px 16px 10px;
+  width: 162px;
+  height: 70px;
+  box-shadow: 0 0 10px rgba(23, 59, 117, 0.55);
+  background-image: linear-gradient(to top, #ffffff 0%, #ffffff 100%);
+  opacity: 0.95;
+  color: #ec1e79;
+  font-family: "Gotham Pro";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  position: absolute;
+  display: none;
+  top: 100%;
+  right: 1px;
+}
+
+.header-schedule:hover .header__dropdown {
+  display: block;
+}
+
+.header-schedule:hover .header__link {
+  color: #5dd1f8;
+  opacity: 0.7;
+}
+
+.header__dropdown-lunch {
+  color: #221f1f;
+  font-family: "Gotham Pro";
+  font-weight: 300;
 }
 
 .header__link {
