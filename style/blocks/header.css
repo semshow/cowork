@@ -48,9 +48,8 @@
   padding: 17px 10px 16px 10px;
   width: 162px;
   height: 70px;
-  box-shadow: 0 0 10px rgba(23, 59, 117, 0.55);
-  background-image: linear-gradient(to top, #ffffff 0%, #ffffff 100%);
-  opacity: 0.95;
+	box-shadow: 0 2px 2px #6a6e74;
+  background-color: #fff;
   color: #ec1e79;
   font-family: "Gotham Pro";
   font-size: 14px;
@@ -58,8 +57,19 @@
   line-height: 18px;
   position: absolute;
   display: none;
-  top: 100%;
+  top: 35px;
   right: 1px;
+}
+
+.header__dropdown:after {
+  content: '';
+  background-color: #fff;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: -8px;
+  right: 4px;
+  transform: rotate(45deg);
 }
 
 .header-schedule:hover .header__dropdown {
