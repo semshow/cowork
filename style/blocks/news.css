@@ -28,12 +28,17 @@
 
 .news__item-img {
   margin-right: 20px;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  overflow: hidden;
 }
 
 .news__icon {
-  width: 160px;
-  height: 160px;
-  border-radius: 50%
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
 }
 
 .news__item-title {

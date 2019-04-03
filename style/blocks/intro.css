@@ -1,19 +1,26 @@
 .wrapper__intro {
+  position: relative;
   width: 100%;
   height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-image: url(../../img/bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100%;
+  background-size: cover;
+}
+ 
+.intro__logo {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
 
-.intro__logo {
+.intro__img {
   width: 161px;
   height: 119px;
-}
+  display: inline-block;
+} 
 
 .intro__pic {
   margin-bottom: 29px;
@@ -31,7 +38,7 @@
   font-family: "Gotham Pro";
   font-size: 12px;
   font-weight: 700;
-  line-height: 44px;
+  line-height: 40px;
   text-transform: uppercase;
   letter-spacing: 1.2px;
   text-decoration: none;

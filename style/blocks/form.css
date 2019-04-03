@@ -27,11 +27,12 @@
 
 .input__text {
   box-sizing: border-box;
+  border: 1px solid transparent;
   width: 269px;
   height: 45px;
-  border: 0;
   padding-left: 10px;
   border-radius: 3px;
+  outline: none;
 }
 
 .input__name {
@@ -49,11 +50,13 @@
 
 .form__text {
   box-sizing: border-box;
+  border: 1px solid transparent;
   width: 561px;
   height: 90px;
   padding: 9px;
-  border: 1px solid #ec1e79;
   border-radius: 3px;
+  resize: none;
+  outline: none;
 }
 
 .button {
@@ -71,6 +74,10 @@
   letter-spacing: 2.4px;
   line-height: 45px;
   margin: 0 auto;
+}
+
+.input__text:focus, .form__text:focus {
+  border: 1px solid #ec1e79;
 }
 
 .button:hover {

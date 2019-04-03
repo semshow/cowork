@@ -25,7 +25,8 @@
   max-height: 100%;
 }
 
-.header__top-contacts {
+.header__contacts {
+  text-align: right;
   width: 201px;
 }
 
@@ -39,16 +40,28 @@
 }
 
 .header-schedule {
-  margin-left: 85px;
+  display: inline-block;
   position: relative;
+  text-align: right;
+}
+
+.header-schedule:before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 35px;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .header__dropdown {
   box-sizing: border-box;
+  text-align: left;
   padding: 17px 10px 16px 10px;
   width: 162px;
   height: 70px;
-	box-shadow: 0 2px 2px #6a6e74;
+  box-shadow: 0 2px 2px #6a6e74;
   background-color: #fff;
   color: #ec1e79;
   font-family: "Gotham Pro";
