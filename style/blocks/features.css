@@ -2,9 +2,24 @@
   margin-bottom: 72px;
 }
 
+.features__title {
+  text-align: center;
+  font-family: "Gotham Pro";
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
 .features__item {
-  width: 207px;
-  margin-left: 65px;
+  box-sizing: border-box;
+  padding: 30px;
+  width: 272px;
+  /* margin-left: 65px; */
+  margin-right: 20px;
+  border: solid 1px #e8e9ed;
+  margin-bottom: 30px;
 }
 
 .features__list {
@@ -64,7 +79,8 @@
 }
 
 .list-element:before {
-content: '•';
-color: #cc3366;
-margin-right: 32px;
+  content: '•';
+  color: #cc3366;
+  margin-right: 32px;
 }
+

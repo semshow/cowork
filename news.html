@@ -22,6 +22,25 @@
               <img src="img/logo-fig.png" alt="Коворкинг твоей мечты" class="logo__img">
             </a>
           </div>
+          <nav class="menu">
+            <ul class="menu__nav">
+              <li class="menu__item">
+                <a class="menu__link menu__link--main menu__link--active" href="news.html">
+                  Главная
+                </a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link menu__link--comments" href="comments.html">
+                  Отзывы
+                </a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link menu__link--prices" href="prices.html">
+                  Тарифы
+                </a>
+              </li>
+            </ul>
+          </nav>
           <div class="header__contacts">
             <div class="header__contacts-link">
               <a href="tel:8 (800) 00-392-10" class="header__phone">
@@ -43,73 +62,56 @@
       </header>
 
       <div class="main container">
-        <nav class="menu">
-          <ul class="menu__nav">
-            <li class="menu__item">
-              <a class="menu__link menu__link--main menu__link--active" href="news.html">
-                Главная
-              </a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link menu__link--comments" href="comments.html">
-                Отзывы
-              </a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link menu__link--prices" href="prices.html">
-                Тарифы
-              </a>
-            </li>
-          </ul>
-        </nav>
-        <div class="content">
-          <section class="features">
-            <h1 class="title">Особенности</h1>
-            <div class="features__list">
-              <div class="features__item">
-                <div class="features__icon">
-                  <img src="img/flower.png" alt="" class="features__img">
-                </div>
-                <div class="features__item-title">Уникальность</div>
-                <div class="features__item-description">
-                  Создан для вашего комфортного отдыха
-                </div>
-                <ul class="features__item-list">
-                  <li class="list-element">Кофe/чай</li>
-                  <li class="list-element">Шкаф (5 кг)</li>
-                  <li class="list-element">Рабочее место</li>
-                </ul>
-              </div>
-              <div class="features__item">
-                <div class="features__icon">
-                  <img src="img/mark-as-favorite-star.png" class="features__img" alt="">
-                </div>
-                <div class="features__item-title">Премиум класс</div>
-                <div class="features__item-description">
-                  Для любителей хороших впечатлений
-                </div>
-                <ul class="features__item-list">
-                  <li class="list-element">Обед+кофе </li>
-                  <li class="list-element">Шкаф (10 кг)</li>
-                  <li class="list-element">Детское кресло</li>
-                </ul>
-              </div>
-              <div class="features__item">
-                <div class="features__icon">
-                  <img src="img/painter-palette.png" alt="" class="features__img">
-                </div>
-                <div class="features__item-title">Лакшери стулья</div>
-                <div class="features__item-description">
-                  Все самое лучшее и незабываемое
-                </div>
-                <ul class="features__item-list">
-                  <li class="list-element">Джакузи</li>
-                  <li class="list-element">Шкаф (15 кг)</li>
-                  <li class="list-element">Табуретка</li>
-                </ul>
-              </div>
+        <aside class="aside__content">
+          <div class="features__item">
+            <div class="features__title">Топ тариф</div>
+            <div class="features__item-title">Уникальность</div>
+            <div class="features__item-description">
+              Создан для вашего комфортного отдыха
             </div>
-          </section>
+            <ul class="features__item-list">
+              <li class="list-element">Кофe/чай</li>
+              <li class="list-element">Шкаф (5 кг)</li>
+              <li class="list-element">Рабочее место</li>
+            </ul>
+          </div>
+          <div class="footer__social footer__item">
+            <div class="footer__social-text">
+              Наши социальные сети
+            </div>
+            <ul class="footer__social-list">
+              <li class="footer__social-item">
+                <a href="#" class="footer__social-link">
+                  <img src="img/vk.png" alt="social" class="footer__social-icon">
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a href="#" class="footer__social-link">
+                  <img src="img/fb.png" alt="social" class="footer__social-icon">
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a href="#" class="footer__social-link">
+                  <img src="img/google.png" alt="social" class="footer__social-icon">
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a href="#" class="footer__social-link">
+                  <img src="img/twitter.png" alt="social" class="footer__social-icon">
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a href="#" class="footer__social-link">
+                  <img src="img/mail.png" alt="social" class="footer__social-icon">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </aside>
+
+        
+        <div class="content">
+          
           <section class="news">
             <h2 class="title">
               Последние новости
@@ -223,38 +225,6 @@
             <a href="news.html">
               <img src="img/logo-fig.png" alt="Коворкинг твоей мечты">
             </a>
-          </div>
-          <div class="footer__social footer__item">
-            <div class="footer__social-text">
-              Наши социальные сети
-            </div>
-            <ul class="footer__social-list">
-              <li class="footer__social-item">
-                <a href="#" class="footer__social-link">
-                  <img src="img/vk.png" alt="social" class="footer__social-icon">
-                </a>
-              </li>
-              <li class="footer__social-item">
-                <a href="#" class="footer__social-link">
-                  <img src="img/fb.png" alt="social" class="footer__social-icon">
-                </a>
-              </li>
-              <li class="footer__social-item">
-                <a href="#" class="footer__social-link">
-                  <img src="img/google.png" alt="social" class="footer__social-icon">
-                </a>
-              </li>
-              <li class="footer__social-item">
-                <a href="#" class="footer__social-link">
-                  <img src="img/twitter.png" alt="social" class="footer__social-icon">
-                </a>
-              </li>
-              <li class="footer__social-item">
-                <a href="#" class="footer__social-link">
-                  <img src="img/mail.png" alt="social" class="footer__social-icon">
-                </a>
-              </li>
-            </ul>
           </div>
         </div>
       </footer>

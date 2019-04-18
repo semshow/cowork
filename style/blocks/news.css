@@ -4,6 +4,7 @@
 
 .news .title {
   margin-bottom: 67px;
+  margin-top: 0;
 }
 
 .news__item {

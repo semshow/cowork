@@ -39,34 +39,67 @@
       </header>
 
       <div class="main container">
-        <nav class="menu">
-          <ul class="menu__nav">
-            <li class="menu__item">
-              <a class="menu__link menu__link--main" href="news.html">
-                Главная
-              </a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link menu__link--comments menu__link--active" href="comments.html">
-                Отзывы
-              </a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link menu__link--prices" href="prices.html">
-                Тарифы
-              </a>
-            </li>
-          </ul>
-        </nav>
-        <div class="content">
-          <div class="breadcrumbs">
-            <ul class="breadcrumbs__list">
-              <li class="breadcrumbs__item"> <a href="news.html" class="breadcrumbs__link">Главная</a></li>
-              <li class="breadcrumbs__item"> /</li>
-              <li class="breadcrumbs__item"> <a href="comments.html"
-                  class="breadcrumbs__link breadcrumbs__link--active">Отзывы</a></li>
+        <aside class="aside__content">
+          <div class="advert">
+            <p class="advert__text">
+              Для наших новых клиентов мы предлагаем
+              <span class="advert__discount">скидку 50%</span> на первый день!
+              Приходите, чтобы лично оценить преимущества коворкинга «Воркадиум»!
+            </p>
+          </div>
+          <div class="footer__social footer__item">
+            <div class="footer__social-text">
+              Наши социальные сети
+            </div>
+            <ul class="footer__social-list">
+              <li class="footer__social-item">
+                <a href="#" class="footer__social-link">
+                  <img src="img/vk.png" alt="social" class="footer__social-icon">
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a href="#" class="footer__social-link">
+                  <img src="img/fb.png" alt="social" class="footer__social-icon">
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a href="#" class="footer__social-link">
+                  <img src="img/google.png" alt="social" class="footer__social-icon">
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a href="#" class="footer__social-link">
+                  <img src="img/twitter.png" alt="social" class="footer__social-icon">
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a href="#" class="footer__social-link">
+                  <img src="img/mail.png" alt="social" class="footer__social-icon">
+                </a>
+              </li>
             </ul>
           </div>
+        </aside>
+        <div class="content">
+          <nav class="menu">
+            <ul class="menu__nav">
+              <li class="menu__item">
+                <a class="menu__link menu__link--main menu__link--active" href="news.html">
+                  Главная
+                </a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link menu__link--comments menu__link--pink"  href="comments.html">
+                  Отзывы
+                </a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link menu__link--prices menu__link--pink" href="prices.html">
+                  Тарифы
+                </a>
+              </li>
+            </ul>
+          </nav>
           <section class="comments">
             <h1 class="title">Отзывы</h1>
             <div class="comments__item">
@@ -158,50 +191,44 @@
             </div>
           </section>
           <section class="pager">
-              <div class="pager__description">
-                Страница 1 из 7
-              </div>
-              <div class="pager__array-prev">
-                <a href="#" class="pager__array-link">
-                  &lt;
-                </a>
-              </div>
-              <ul class="pager__list">
-                <li class="pager__list-item ">
-                  <a href="#" class="pager__link pager__link--active">1</a>
-                </li>
-                <li class="pager__list-item">
-                  <a href="#" class="pager__link">2</a>
-                </li>
-                <li class="pager__list-item">
-                  <a href="#" class="pager__link">3</a>
-                </li>
-                <li class="pager__list-item">
-                  <a href="#" class="pager__link">4</a>
-                </li>
-                <li class="pager__list-item">
-                  <a href="#" class="pager__link">5</a>
-                </li>
-                <li class="pager__list-item">
-                  <a href="#" class="pager__link">6</a>
-                </li>
-                <li class="pager__list-item">
-                  <a href="#" class="pager__link">7</a>
-                </li>
-              </ul>
-              <div class="pager__array-next">
-                <a href="#" class="pager__array-link">&gt;</a>
-              </div>
-            </section>
+            <div class="pager__description">
+              Страница 1 из 7
+            </div>
+            <div class="pager__array-prev">
+              <a href="#" class="pager__array-link">
+                &lt;
+              </a>
+            </div>
+            <ul class="pager__list">
+              <li class="pager__list-item ">
+                <a href="#" class="pager__link pager__link--active">1</a>
+              </li>
+              <li class="pager__list-item">
+                <a href="#" class="pager__link">2</a>
+              </li>
+              <li class="pager__list-item">
+                <a href="#" class="pager__link">3</a>
+              </li>
+              <li class="pager__list-item">
+                <a href="#" class="pager__link">4</a>
+              </li>
+              <li class="pager__list-item">
+                <a href="#" class="pager__link">5</a>
+              </li>
+              <li class="pager__list-item">
+                <a href="#" class="pager__link">6</a>
+              </li>
+              <li class="pager__list-item">
+                <a href="#" class="pager__link">7</a>
+              </li>
+            </ul>
+            <div class="pager__array-next">
+              <a href="#" class="pager__array-link">&gt;</a>
+            </div>
+          </section>
         </div>
       </div>
-      <div class="advert">
-        <p class="advert__text container">
-          Для наших новых клиентов мы предлагаем
-          <span class="advert__discount">скидку 50%</span> на первый день!
-          Приходите, чтобы лично оценить преимущества коворкинга «Воркадиум»!
-        </p>
-      </div>
+
 
       <div class="form container">
         <div class="form__title">
@@ -245,7 +272,7 @@
       </div>
 
     </div> <!-- end of sticky footer -->
-    <footer class="footer comments__footer">
+    <footer class="footer">
       <div class="footer__content container">
         <div class="footer__item footer__creator">
           <p class="footer-text">
@@ -258,38 +285,6 @@
           <a href="news.html">
             <img src="img/logo-fig.png" alt="Коворкинг твоей мечты">
           </a>
-        </div>
-        <div class="footer__social footer__item">
-          <div class="footer__social-text">
-            Наши социальные сети
-          </div>
-          <ul class="footer__social-list">
-            <li class="footer__social-item">
-              <a href="#" class="footer__social-link">
-                <img src="img/vk.png" alt="social" class="footer__social-icon">
-              </a>
-            </li>
-            <li class="footer__social-item">
-              <a href="#" class="footer__social-link">
-                <img src="img/fb.png" alt="social" class="footer__social-icon">
-              </a>
-            </li>
-            <li class="footer__social-item">
-              <a href="#" class="footer__social-link">
-                <img src="img/google.png" alt="social" class="footer__social-icon">
-              </a>
-            </li>
-            <li class="footer__social-item">
-              <a href="#" class="footer__social-link">
-                <img src="img/twitter.png" alt="social" class="footer__social-icon">
-              </a>
-            </li>
-            <li class="footer__social-item">
-              <a href="#" class="footer__social-link">
-                <img src="img/mail.png" alt="social" class="footer__social-icon">
-              </a>
-            </li>
-          </ul>
         </div>
       </div>
     </footer>

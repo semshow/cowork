@@ -1,19 +1,27 @@
 .advert {
-  height: 174px;
+  /* height: 174px; */
+  box-sizing: border-box;
+  padding: 20px 9px 20px;
+  width: 274px;
   background-image: url("../../img/background.jpg");
   background-color: #27273e;
   color: #ffffff;
   font-family: "Gotham Pro";
   font-size: 18px;
   font-weight: 300;
-  line-height: 30px;
-  padding-top: 42px;
-  box-sizing: border-box;
-  margin-bottom: 57px;
+  /* padding-top: 42px; */
+  /* margin-bottom: 57px; */
 }
 
 .advert__text {
-  width: 620px;
+    font-family: Gotham Pro;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.67;
+    text-align: center;
+    color: #ffffff;
+
 }
 
 .advert__discount {

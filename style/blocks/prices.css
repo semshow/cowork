@@ -20,7 +20,7 @@
 }
 
 .prices__block-img:before {
-  content:'';
+  content: '';
   display: block;
   width: 100%;
   height: 100%;
@@ -83,6 +83,17 @@
 }
 
 .partners__title {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Gotham Pro;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: center;
+  color: #221f1f;
   margin-bottom: 32px;
 }
 
@@ -90,14 +101,18 @@
   list-style-type: none;
 }
 
+.partners__content {
+  padding-top: 27px;
+  border: solid 1px #e8e9ed;
+  box-sizing: border-box;
+}
+
 .partners__item {
-  display: inline-block;
-  width: 160px;
-  height: 62px;
-  vertical-align: top;
+  /* display: inline-block; */
+  /* vertical-align: top; */
+  text-align: center;
   font-size: 0;
-  margin-right: 110px;
-  margin-bottom: 54px;
+  margin-bottom: 45px;
 }
 
 .partners__img {

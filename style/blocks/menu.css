@@ -1,10 +1,16 @@
-.menu {
+/* .menu {
   width: 182px;
-}
+} */
 
 .menu__item {
-  margin-bottom: 35px;
+  display: inline-block;
+  /* margin-bottom: 35px; */
   text-transform: uppercase;
+  margin-right: 98px;
+}
+
+.menu__item:last-child {
+  margin-right: 0;
 }
 
 .menu__nav {
@@ -18,17 +24,17 @@
 
 .menu__link {
   position: relative;
-  color: #ec1e79;
+  color: #ffffff;
   text-decoration: none;
   padding-left: 37px;
 }
 
 .menu__link--active {
-  color: #221f1f;
+  color: #ec1e79;
 }
 
 .menu__link:hover {
-  color: #221f1f;
+  color: #ec1e79;
 }
 
 .menu__link:before {
@@ -42,34 +48,38 @@
 .menu__link--main:before {
   width: 17px;
   height: 15px;
-  background: url(../../img/css_sprites.png) -90px -45px;
+  background: url(../../img/css_sprites.png) -90px -48px;
 }
 
 .menu__link--comments:before {
   width: 20px;
   height: 18px;
-  background: url(../../img/css_sprites.png) -50px -10px;
+  background: url(../../img/feed_icon.png) no-repeat;
 }
 
 .menu__link--prices:before {
   width: 19px;
   height: 16px;
-  background: url(../../img/css_sprites.png) -49px -48px;
+  background: url(../../img/wallet_icon.png) no-repeat;
 }
 
 .menu__link--main:hover:before,
 .menu__link--active.menu__link--main:before {
-  background: url(../../img/css_sprites.png) -90px -10px;
+  background: url(../../img/css_sprites.png) -90px -45px;
 }
 
 .menu__link--comments:hover:before,
 .menu__link--active.menu__link--comments:before {
-  background: url(../../img/css_sprites.png) -10px -10px;
+  background: url(../../img/css_sprites.png) -50px -10px;
 }
 
 .menu__link--prices:hover:before,
 .menu__link--active.menu__link--prices:before {
   width: 19px;
   height: 16px;
-  background: url(../../img/css_sprites.png) -10px -48px;
+  background: url(../../img/css_sprites.png) -49px -48px;
+}
+
+.menu__link--pink {
+  color: #ec1e79; 
 }
